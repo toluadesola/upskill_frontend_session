@@ -7,6 +7,18 @@
         flex-direction: column;
     }
 
+    .menu-button{
+        display: none;
+    }
+
+    .hero-section{
+        margin-top: 20px;
+    }
+
+    .hero-bg{
+        width: 100%;
+    }
+
     .hero-content{
         width: 100%;
     }
@@ -27,6 +39,10 @@
         width: 100%;
     }
 
+    .how-li li p{
+      width: 300px;
+    }
+
     .hero-content{
         width: auto;
         position: relative;
@@ -40,13 +56,26 @@
         width: auto;
     }
 
+    .how-section{
+      height: auto;
+      padding-bottom: 60px;
+    }
+
     .about-section{
-      height: 45em;
+      height: 30em;
+      padding-left: 5%;
+    }
+
+    .about-bg{
+      text-align: center;
+      background: none;
+      width: 90%;
     }
 
     .about-content{
       width: auto;
       padding: auto;
+      position: static;
     }
 
     .about-bg p{
@@ -94,6 +123,14 @@
       left: 630px;
       top: 3723px;
       background: linear-gradient(96.67deg, #34A853 0%, #B8D344 100%);
+    }
+
+    .testimonial-li p{
+      width: 90%;
+    }
+
+    .testimonial-content{
+      height: auto;
     }
 }
 
